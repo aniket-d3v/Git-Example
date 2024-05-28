@@ -20,8 +20,13 @@
 
 --------------------------------------
 
+To add all files and folder
 ``` git add . ```
+
+To make a commit message
 ``` git commit -m "Commit message"  ```
+
+To push the changes to the branch
 ``` git push origin branchname ```
 
 ### Demo code on branch that will later be merged 
@@ -52,9 +57,19 @@ app.listen(process.env.PORT || 5000 , ()=>{
 
 ```
 
+----------------------
+### Making bugfix branch conflicting
+![alt text](image-8.png)
+
+- Now manually fixing it
+
+```
+    res.json({"message":"You are visiting the register page"})
+
+```
 
 ----------------------
-- Making pr to develop branch from feature/user-authentication
+# Making pr to develop branch from feature/user-authentication
 
 ![alt text](image.png)
 
@@ -67,7 +82,7 @@ app.listen(process.env.PORT || 5000 , ()=>{
 ![alt text](image-2.png)
 
 ------------------------
-- Making pr to develop branch from bugfix/registration-form
+# Making pr to develop branch from bugfix/registration-form
 
 ![alt text](image-3.png)
 
@@ -79,7 +94,7 @@ app.listen(process.env.PORT || 5000 , ()=>{
 
 ------------------------
 
-- Merging the develop branch to the main branch
+# Merging the develop branch to the main branch
 
 ![alt text](image-6.png)
 
