@@ -14,7 +14,7 @@ app.get("/login",(req,res)=>{
 app.get("/register",(req,res)=>{
 
     res.json({"message":"You are visiting the register page"})
-    
+
 })
 
 app.listen(process.env.PORT || 5000 , ()=>{
