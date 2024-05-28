@@ -99,3 +99,10 @@ app.listen(process.env.PORT || 5000 , ()=>{
 - Successful merge from develop to main
 
 ![alt text](image-7.png)
+
+
+----------------------------------------
+
+Started the tutorial from creating the repository and brushed up my version control and code management knowledge.
+Merging the code without testing will lead to a code conflict thus leading to a bad code management.
+Understanding Version Control and standards to follow the principles definately helps in managing large codebases.
