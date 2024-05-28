@@ -6,7 +6,7 @@ app.use(express.json())
 
 app.get("/login",(req,res)=>{
 
-    res.json({"message":"You are visiting the login page"})
+    res.json({"message":"You are visiting the user login page"})
 
 })
 
