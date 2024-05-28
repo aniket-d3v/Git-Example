@@ -51,49 +51,22 @@ app.listen(process.env.PORT || 5000 , ()=>{
 ```
 
 
----------------------------
+----------------------
+- Making pr to develop branch from feature/user-authentication
 
+![alt text](image.png)
 
+- No conflicts to merge 
 
-- Creating conflicting Change in the bugfix branch
+![alt text](image-1.png)
 
-```
-const express=require("express")
-const app=express()
+- Merged without errors
 
-app.use(express.json())
+![alt text](image-2.png)
 
+------------------------
+- Making pr to develop branch from bugfix/registration-form
 
-app.get("/login",(req,res)=>{
-
-    res.json({"message":"You are visiting the login page"})
-
-})
-
-
-app.get("/register",(req,res)=>{
-
-    res.send{}
-
-})
-
-app.listen(process.env.PORT || 5000 , ()=>{
-    console.log("Server is running")
-})
-
-```
-
-
------------------------
-
-- Manually fixing the conflict
-
-
-```
-
-    res.json({"message":"You are visiting the updated register page"})
-
-
-```
+![alt text](image-3.png)
 
 
