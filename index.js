@@ -13,7 +13,7 @@ app.get("/login",(req,res)=>{
 
 app.get("/register",(req,res)=>{
 
-    res.json({"message":"You are visiting the register page"})
+    res.json({"message":"You are visiting the updated register page"})
 
 })
 
