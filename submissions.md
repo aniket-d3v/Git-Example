@@ -71,15 +71,13 @@ app.listen(process.env.PORT || 5000 , ()=>{
 ----------------------
 # Making pr to develop branch from feature/user-authentication
 
-![alt text](image.png)
-
 - No conflicts to merge 
 
-![alt text](image-1.png)
+![alt text](image-10.png)
 
 - Merged without errors
 
-![alt text](image-2.png)
+![alt text](image-9.png)
 
 ------------------------
 # Making pr to develop branch from bugfix/registration-form
