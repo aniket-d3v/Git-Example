@@ -18,9 +18,11 @@
 
 ``` git checkout bugfix/registration-from ```
 
-
 --------------------------------------
 
+``` git add . ```
+``` git commit -m "Commit message"  ```
+``` git push origin branchname ```
 
 ### Demo code on branch that will later be merged 
 - feature/user-authentication
@@ -69,5 +71,18 @@ app.listen(process.env.PORT || 5000 , ()=>{
 
 ![alt text](image-3.png)
 
+- No conflicts before merge
+![alt text](image-4.png)
 
+- After Merge
+![alt text](image-5.png)
 
+------------------------
+
+- Merging the develop branch to the main branch
+
+![alt text](image-6.png)
+
+- Successful merge from develop to main
+
+![alt text](image-7.png)
