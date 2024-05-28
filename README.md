@@ -48,26 +48,4 @@ app.listen(process.env.PORT || 5000 , ()=>{
     console.log("Server is running")
 })
 
-```
-
-
-----------------------
-- Making pr to develop branch from feature/user-authentication
-
-![alt text](image.png)
-
-- No conflicts to merge 
-
-![alt text](image-1.png)
-
-- Merged without errors
-
-![alt text](image-2.png)
-
-------------------------
-- Making pr to develop branch from bugfix/registration-form
-
-![alt text](image-3.png)
-
-
 
